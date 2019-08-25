@@ -1,0 +1,47 @@
+Version 1.0 10/14/2018.
+
+This directory contains a pirate store inventory system made just for fun :) . Java 8 was used to implement the program.
+
+GENERAL NOTE ON STYLE:      The source code follows conventions of the Java Style checker.
+                            This includes the convention of dealing with "magic numbers."
+                            According to this convention, constants which are NOT assigned
+                            to a variable cannot be used in the code. Hence, every constant
+                            number has been assigned to a variable, even though it might
+                            appear redundant at times.
+
+GENERAL NOTE ON IMAGES:     All images used in this program are accessed by fetching them
+                            directly from the internet. This has been done to ensure
+                            transparency as to where I got the images from.
+
+
+CONTENTS:
+---------
+
+README                      This file.
+                        
+
+src/sample  (contains source code)
+
+    Cart.java               This class behaves as a shopping cart. It contains the user's
+                            choice of items to purchase.
+
+    Main.java               Entry point to program. This also handles the GUI used in the 
+                            program.
+
+    Item.java               This class behaves as both an item as well as a shop, for
+                            reasons specified in the Javadoc comment for the Class
+                            (the program deals with only one shop). Each item
+                            can be added to a user's Cart. An item can also deal with
+                            aspects pertaining to other items, as it behave like a shop.
+
+out/artifacts/pirateStore (contains executable file.)
+
+    pirateStore.jar         The executable program.
+
+
+
+END NOTE:
+_________
+
+Thank you for going through my project! I hope you enjoy using it as much as I enjoyed
+creating it!!
